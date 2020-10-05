@@ -1,8 +1,12 @@
 #include<bits/stdc++.h>
 
 using namespace std;
-main()
-{string s;
+int main()
+{
+    int t;
+    while(t--)
+    {
+    string s;
     int i,j,k,l;
     cin>>k;
     while(k--)
@@ -16,5 +20,6 @@ main()
             else
                 cout<<s;
 
+    }
     }
 }
